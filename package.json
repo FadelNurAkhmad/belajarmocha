@@ -4,7 +4,7 @@
   "description": "Project belajar mocha ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive ./test/api-test --reporter mochawesome"
   },
   "keywords": [
     "npm"
@@ -14,6 +14,7 @@
   "devDependencies": {
     "chai": "^4.3.10",
     "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
     "supertest": "^6.3.3"
   }
 }
