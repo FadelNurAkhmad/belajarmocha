@@ -19,7 +19,7 @@ describe("Verify Delete User", function () {
     expect(response.body.status).to.eql("SUCCESS_DELETE_PROFILE");
   });
 
-  it.only("2. Delete User Gagal", async function () {
+  it("2. Delete User Gagal", async function () {
     const responseLogin = await url
       .post("/login")
       .send({ email: "baraungkep2@gmail.com", password: "baraungkep" });
