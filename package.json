@@ -1,0 +1,19 @@
+{
+  "name": "batch20mocha",
+  "version": "1.0.0",
+  "description": "Project belajar mocha ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "fadel",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
